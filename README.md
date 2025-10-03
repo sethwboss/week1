@@ -18,6 +18,10 @@ Use this as a starting point to complete the WDD 231 personal activity. We will 
 - `npm run build` to build final files when you are ready to turn in.
 
 
+##
+
+- API Key for NPS project (Weeks 1-3): 5MmbdN0XVeoA0fJwZmamU8gJb9lDfBmQjJ5s79qP
+
 
 
 URL:
