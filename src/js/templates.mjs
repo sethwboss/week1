@@ -56,10 +56,9 @@ export function alertTemplate(alert) {
     default:
       alertType = alert.category.toLowerCase();
   }
-  // note the new path below for the SVG!
   return `<li class="alert">
   <svg class="icon" focusable="false" aria-hidden="true">
-    <use xlink:href="${spritePath}#alert-${alertType}"></use>  
+    <use xlink:href="${spritePath}#alert-${alertType}"></use>
   </svg>
   <div>
     <h3 class="alert-${alertType}">${alert.title}</h3>
@@ -67,13 +66,14 @@ export function alertTemplate(alert) {
   </div></li>`;
 }
 
-
-export function visitorname() {
-
+export function visitorCenterTemplate(center) {
+  return `<li class="visitor-center">
+  <h4>${center.name}</h4>
+  <p>${center.description}</p>
+  <p>${center.directionsInfo}</p>
+  </li>`;
 }
-export function visitordescription() {
 
-}
-export function visitorDirectionsInfo() {
-
+export function activityListTemplate(activities) {
+  return activities.map((activity) => `<li>${activity.name}</li>`).join("");
 }
