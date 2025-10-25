@@ -67,6 +67,8 @@ function completeTask(taskElement) {
   setLocalStorage("todos", tasks);
 }
 
+//test 
+
 function manageTasks(e) {
   // did they click the delete or complete icon?
   console.log(e.target);
