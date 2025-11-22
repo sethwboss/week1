@@ -1,0 +1,53 @@
+/* badUx.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  width: 1000px;
+  color: white;
+  text-align: center;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid gray;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  max-width: 100%;
+  justify-self: center;
+  padding: 20px;
+  font-size: 15px;
+}
+
+form label {
+    color: black;
+}
