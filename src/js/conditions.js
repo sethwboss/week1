@@ -42,7 +42,7 @@ init();
 
 
 
-setVisitorCenters()
+setVisitorCenters();
 
 
 
